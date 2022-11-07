@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#card {
+    background-color: #D0F0FD;
+    width: 320px;
+    margin: 10px auto;
+    border-radius: 15px;
+    padding-bottom: 40px;
+}
+
+#card>h4 {
+    font-size: 16px;
+    color: white;
+    background-color: #2D7FF9;
+    padding: 10px 0 10px 20px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.container {
+    padding: 20px 20px 0 20px;
+}
+
+h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 19px;
+    Line-height: 24px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 12px;
+}
+
+h1 {
+    font-size: 64px;
+    padding-right: 30px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+button {
+    color: white;
+    background-color: #2D7FF9;
+    padding: 18px 90px;
+    border: none;
+    border-radius: 50px;
+    margin: 30px 0;
+}
+
+button h4 {
+    font-size: 16px;
+}
+
+p:nth-of-type(2) {
+    padding-bottom: 7px;
+}
+
+span {
+    border-bottom: 2px dotted black;
+}
+
+ul {
+    padding-left: 18px;
+}
+
+ul li {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 0 5px 0;
+    list-style-type: square;
+}
